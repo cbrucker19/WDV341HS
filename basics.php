@@ -54,5 +54,7 @@ buildScriptArray();
         <h4>Second Number: <?php echo $number2 ?></h4>
         <h4>Total: <?php echo $total ?></h4>
             <p id = "arrayOutput"> Array Output:</p>
+
+            <p><a href="https://github.com/cbrucker19/WDV341HS/blob/main/basics.php">Repo assignment: </p>
     </body>
 </html>

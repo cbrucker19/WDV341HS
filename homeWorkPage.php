@@ -9,5 +9,7 @@
     <body>
         <h1>Welcome to my PHP WDV341 Homework page</h1>
         <h3>Author: Cyrus Brucker </h3>
+
+        <p><a href="basics.php">Basics HomeWork</p>
     </body>
 </html>         

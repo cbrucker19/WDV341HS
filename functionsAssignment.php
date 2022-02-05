@@ -93,6 +93,7 @@ function formatCurrency($inNum){
         
         <p>Create a function that will accept a number and display it as US currency with a dollar sign.</p>
         <?php formatCurrency(123456);?>
+        <p>Link to GitHub Repo: <a href="https://github.com/cbrucker19/WDV341HS/blob/main/functionsAssignment.php">Click Here!</p>
     </div>
 </body>
 </html>

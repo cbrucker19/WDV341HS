@@ -11,5 +11,6 @@
         <h3>Author: Cyrus Brucker </h3>
 
         <p><a href="basics.php">Basics HomeWork</p>
+        <p><a href="functionsAssignment.php">Function HomeWork</p>
     </body>
 </html>         

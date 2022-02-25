@@ -14,5 +14,6 @@
         <p><a href="functionsAssignment.php">Function HomeWork</p>
         <p><a href="formHandling/WDVform.html">Form HomeWork</a></p>
         <p><a href="selectEvents.php">Selecting all events HomeWork</p>
+        <p><a href="selectOneEventHW.php">Select One event HomeWork</p>
     </body>
 </html>         

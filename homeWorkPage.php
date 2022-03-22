@@ -16,5 +16,6 @@
         <p><a href="selectEvents.php">Selecting all events HomeWork</p>
         <p><a href="selectOneEventHW.php">Select One event HomeWork</p>
         <p><a href="emailFormProject/contact_form.html">EmailReponseHW</p>
+        <p><a href="formatted-products/retail-products.php">RetailProductsFormattedHW</p>
     </body>
 </html>         

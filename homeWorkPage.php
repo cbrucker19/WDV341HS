@@ -13,9 +13,10 @@
         <p><a href="basics.php">Basics HomeWork</p>
         <p><a href="functionsAssignment.php">Function HomeWork</p>
         <p><a href="formHandling/WDVform.html">Form HomeWork</a></p>
-        <p><a href="selectEvents.php">Selecting all events HomeWork</p>
-        <p><a href="selectOneEventHW.php">Select One event HomeWork</p>
-        <p><a href="emailFormProject/contact_form.html">EmailReponseHW</p>
-        <p><a href="formatted-products/retail-products.php">RetailProductsFormattedHW</p>
+        <p><a href="selectEvents.php">Selecting all events HomeWork 7.1</p>
+        <p><a href="selectOneEventHW.php">Select One event HomeWork 7.2</p>
+        <p><a href="emailFormProject/contact_form.html">EmailReponseHW  Project</p>
+        <p><a href="formatted-products/retail-products.php">RetailProductsFormattedHW 8</p>
+        <p><a href="JSONEventObjectH/deliverEventObjectH.php">PHP-JSON Event Object 9</a></p>
     </body>
 </html>         

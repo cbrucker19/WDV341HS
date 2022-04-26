@@ -24,7 +24,6 @@ if(isset($_POST['submit'])){
     }else{
         $eventName = $_POST['event_name'];
         $eventDescription = $_POST['event_description'];
-        $eventPresenter = $_POST['presenter'];
         $eventDate = $_POST['date'];
         $eventTime = $_POST['time'];
         $eventDateInserted = currentDateSqlFormat();
@@ -37,7 +36,6 @@ if(isset($_POST['submit'])){
             $sql = "INSERT INTO wdv341_events (";   // db table columns
             $sql .= "event_name, ";
             $sql .= "event_description, ";
-            $sql .= "presenter, ";
             $sql .= "date, ";
             $sql .= "time, ";
             $sql .= "date_inserted, ";
@@ -45,7 +43,6 @@ if(isset($_POST['submit'])){
             $sql .= ") VALUES (";                   // values for columns
             $sql .= ":eventName, ";
             $sql .= ":eventDescription, ";
-            $sql .= ":eventPresenter, ";
             $sql .= ":eventDate, ";
             $sql .= ":eventTime, ";
             $sql .= ":eventDateInserted, ";
@@ -56,7 +53,6 @@ if(isset($_POST['submit'])){
                     //BIND the values to the input parameters of the prepared statement
             $stmt->bindParam(':eventName', $eventName);
             $stmt->bindParam(':eventDescription', $eventDescription);		
-            $stmt->bindParam(':eventPresenter', $eventPresenter);		
             $stmt->bindParam(':eventDate', $eventDate);		
             $stmt->bindParam(':eventTime', $eventTime);
             $stmt->bindParam(':eventDateInserted', $eventDateInserted);
@@ -106,13 +102,12 @@ if(isset($_POST['submit'])){
                 echo"<p><h4>Your form has been saved!</h4>
                     Event: $eventName<br>
                     Description: $eventDescription<br>
-                    Presenter: $eventPresenter<br>
                     Time: $eventTime <br>
                     Date: $eventDate <br>
                 </p>";
             }else{ //else if not submitted it will display the form on the page. 
         ?>
-        <form name="eventsForm" id="eventsForm" method="post" action="selfPostingInsertFormH.php">
+        <form name="eventsForm" id="eventsForm" method="post" action="selfPostingInsertForm.php">
                 <label for="event_name">Event Name:</label>
                 <input type="text" name="event_name" id="event_name"><br>
 
